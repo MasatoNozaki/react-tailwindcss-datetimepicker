@@ -126,7 +126,7 @@ export default class ReactDateTimePicker extends React.Component<ReactDateTimePi
         <div
           id="datepicker-container-standalone"
           className={clsx(
-            'flex max-w-2xl flex-col rounded border border-gray-100 bg-white shadow-lg dark:border-none dark:bg-slate-700 dark:text-white',
+            'flex max-w-3xl flex-col rounded border border-gray-100 bg-white shadow-lg dark:border-none dark:bg-slate-700 dark:text-white',
             {
               '!flex-col': this.props.forceMobileMode,
               '!flex-row': this.props.noMobileMode,
